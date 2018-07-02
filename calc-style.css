@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: rgb(144, 180, 212);
+    font-size: 2rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+button {
+    color: rgb(183, 183, 183);
+    background-color: rgb(53, 97, 168);
+    border: 2px;
+    margin: 0.1rem;
+    outline: 0;
+    font-size: 1.5rem;
+    transition: -webkit-transform .1s ease;
+    transition: transform .1s ease;
+    transition: transform .1s ease, -webkit-transform .1s ease;
+    display: flex;
+    flex: 0 1 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+button:active {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+}
+
+.calc {
+    background-color: rgb(99, 59, 109);
+    border-radius: 6px;
+    box-shadow: 0 3px rgb(78, 46, 86);
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 60%;
+    min-width: 400px;
+}
+
+.operator {
+    background-color: rgb(53, 64, 168);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 60%;
+    min-width: 400px;
+}
+
+.keypad,
+.display {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+}
+
+.display {
+    height: 2.6rem;
+    border: 1px solid black;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5em;
+    background: #000;
+    color: #fff;
+    padding: 0 10px;
+}
