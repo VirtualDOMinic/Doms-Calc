@@ -74,12 +74,12 @@ button:active {
 }
 
 .display {
-    height: 2.6rem;
+    height: 2.4rem;
     border: 1px solid black;
     border-radius: 3px;
     justify-content: flex-end;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
     background: #000;
     color: #fff;
     padding: 0 10px;
